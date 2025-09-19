@@ -1022,9 +1022,12 @@ a.btn.btn-tertiary:hover {
   margin: var(--space-xl) 0;
 }
 
-.hip-servicios-card-interior-contenedor {
+.hip-servicios-card-interior{
   display: grid;
   grid-template-rows: 1fr auto;
+
+  grid-template-rows: subgrid;
+  grid-row: span 2;
 
   height: 100%;
 
@@ -1033,8 +1036,8 @@ a.btn.btn-tertiary:hover {
   background-size: cover;
 }
 
-.hip-servicios-card-interior-contenedor:hover .hip-servicios-card-interior-descripcion,
-.hip-servicios-card-interior-contenedor:active .hip-servicios-card-interior-descripcion {
+.hip-servicios-card-interior:hover .hip-servicios-card-interior-descripcion,
+.hip-servicios-card-interior:active .hip-servicios-card-interior-descripcion {
   opacity: 1;
 }
 
