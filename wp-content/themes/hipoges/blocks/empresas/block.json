@@ -1,0 +1,24 @@
+{
+    "name": "hipoges/empresas",
+    "title": "Empresas",
+    "description": "Listado de empresas con información",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "viewScript": ["file:./app.js"],
+    "keywords": ["listado", "empresas", "grupo"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+} 

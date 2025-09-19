@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/desplegables-pregunta",
+    "title": "Desplegables Pregunta",
+    "description": "Bloque interior para desplegables",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/desplegables"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

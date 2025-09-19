@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/cards-card-interior",
+    "title": "Card Interior",
+    "description": "Bloque interior para bloque cards",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/cards"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

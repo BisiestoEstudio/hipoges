@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/hero",
+    "title": "Hero",
+    "description": "Bloque para hero en páginas y posts",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["hero", "cabecera", "posts", "paginas"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/desplegables",
+    "title": "Desplegables",
+    "description": "Bloque para acordeones desplegables con imagen",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["desplegable", "pregunta", "respuesta", "acordeon"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

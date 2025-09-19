@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/certificaciones",
+    "title": "Certificaciones",
+    "description": "Bloque de logos para certificaciones",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["logos", "certificaciones", "carrusel", "slider"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

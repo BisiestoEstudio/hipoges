@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/empresas-card-interior",
+    "title": "Empresas card interior",
+    "description": "Bloque interior para bloque empresas",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/empresas"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

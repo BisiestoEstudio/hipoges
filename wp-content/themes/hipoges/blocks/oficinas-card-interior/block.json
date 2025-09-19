@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/oficinas-card-interior",
+    "title": "Oficina card interior",
+    "description": "Bloque interior para bloque oficinas",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/oficinas"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

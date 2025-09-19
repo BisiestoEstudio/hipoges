@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/posts-destacados",
+    "title": "Posts destacados",
+    "description": "Bloque para mostrar entradas de la categoría del post actual",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["cards", "eventos", "listado"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

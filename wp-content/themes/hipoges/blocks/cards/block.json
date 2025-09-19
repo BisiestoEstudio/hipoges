@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/cards",
+    "title": "Cards",
+    "description": "Bloque para cards con logos, iconos o imágenes",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["cards", "card", "logo", "icono", "imagenes"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+} 

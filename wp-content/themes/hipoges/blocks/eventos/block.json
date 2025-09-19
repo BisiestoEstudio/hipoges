@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/eventos",
+    "title": "Eventos",
+    "description": "Bloque para mostrar eventos",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["cards", "eventos", "listado"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

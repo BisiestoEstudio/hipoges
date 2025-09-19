@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/contacto",
+    "title": "Contacto",
+    "description": "Bloque para insertar formularios de contacto",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["contacto", "formulario"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

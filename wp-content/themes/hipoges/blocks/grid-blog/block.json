@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/grid-blog",
+    "title": "Grid Blog",
+    "description": "Listado de post del blog",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["post", "entradas", "blog"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/texto-imagen",
+    "title": "Bloque texto + imagen",
+    "description": "Bloque para incluir una columna de texto y otra con imagen",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["bloque", "texto", "imagen"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

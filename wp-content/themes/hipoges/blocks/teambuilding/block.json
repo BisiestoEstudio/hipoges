@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/teambuilding",
+    "title": "Team building",
+    "description": "Bloque para incluir eventos de teambuilding",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["evento", "team", "building", "equipo"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

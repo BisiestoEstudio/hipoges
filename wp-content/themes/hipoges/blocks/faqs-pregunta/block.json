@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/faqs-pregunta",
+    "title": "FAQs Pregunta",
+    "description": "Bloque interior para preguntas",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/faqs"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

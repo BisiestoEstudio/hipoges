@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/servicios",
+    "title": "Listado servicios",
+    "description": "Bloque para listado de servicios",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["cards", "card", "listado", "servicios"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

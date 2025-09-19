@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/descargables",
+    "title": "Descargables",
+    "description": "Bloque para incluir un listado de descargables",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["listado", "descarga", "descargables", "card"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

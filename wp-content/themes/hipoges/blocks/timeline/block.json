@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/timeline",
+    "title": "Timeline",
+    "description": "Bloque para incluir una línea de tiempo",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["timeline", "linea", "tiempo", "fecha"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

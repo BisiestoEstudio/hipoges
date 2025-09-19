@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/faqs",
+    "title": "FAQs",
+    "description": "Bloque para preguntas y respuestas",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["faqs", "pregunta", "respuesta", "listado"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

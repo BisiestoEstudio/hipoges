@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/servicios-card-interior",
+    "title": "Servicios interior",
+    "description": "Bloque interior para bloque servicios",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/servicios"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

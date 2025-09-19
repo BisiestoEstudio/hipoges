@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/cta-simple",
+    "title": "CTA simple",
+    "description": "Bloque de CTA con RRSS",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["cta", "boton", "redes", "sociales"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

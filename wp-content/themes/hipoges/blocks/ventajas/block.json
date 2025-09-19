@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/ventajas",
+    "title": "Ventajas",
+    "description": "Bloque para ventajas con acordeones",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["ventajas", "acordeon", "cards"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}

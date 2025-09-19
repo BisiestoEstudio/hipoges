@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/cifras-card-interior",
+    "title": "Cifras Interior",
+    "description": "Bloque interior para bloque cifras",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/cifras"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

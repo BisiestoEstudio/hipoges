@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/equipo-card-interior",
+    "title": "Equipo ficha miembro",
+    "description": "Bloque interior para listado equipo",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/equipo"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

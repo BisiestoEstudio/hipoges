@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/ventajas-card-interior",
+    "title": "Ventaja Interior",
+    "description": "Bloque interior para bloque cards",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/ventajas"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

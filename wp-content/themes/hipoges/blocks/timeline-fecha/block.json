@@ -1,0 +1,17 @@
+{
+    "name": "hipoges/timeline-fecha",
+    "title": "Timeline card Fecha",
+    "description": "Bloque interior para una línea de tiempo",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "parent": ["hipoges/timeline"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

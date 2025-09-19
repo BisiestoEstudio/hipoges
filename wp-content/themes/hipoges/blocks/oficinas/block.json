@@ -1,0 +1,23 @@
+{
+    "name": "hipoges/oficinas",
+    "title": "Oficinas",
+    "description": "Listado de oficinas con ubicaciones y contacto",
+    "category": "hipoges",
+    "icon": "embed-post",
+    "textdomain": "hipoges",
+    "keywords": ["listado", "oficinas", "empresas", "ubicacion", "contacto"],
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contenido.php"
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "supports": {
+        "jsx": true
+    }
+}
