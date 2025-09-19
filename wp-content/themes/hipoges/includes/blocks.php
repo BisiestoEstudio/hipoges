@@ -104,7 +104,7 @@ function registrar_estilo_bloques() {
         'wordpycat-blocks-global',
         get_template_directory_uri() . '/recursos/css/style.css',
         false,
-        '2.0',
+        '2.1',
         'all'
     );
 
