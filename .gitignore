@@ -54,7 +54,13 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 *.kmodoproject
+#ignore JetBrains IDEs files
 .idea/
+*.iml
+*.iws
+# ignore VSCode files
+.vscode/
+*.code-workspace
 
 # ignore log files and databases
 *.log
